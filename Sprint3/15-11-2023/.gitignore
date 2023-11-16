@@ -1,0 +1,27 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.backup.*
+*.tfstate.*
+.terraform/
+*.hcl
+
+# Ignore sensitive information (change this if needed)
+*.pem
+*.pem.*
+*.key
+*.key.*
+*.pub
+*.pub.*
+*.p12
+*.p12.*
+*.pfx
+*.pfx.*
+
+# Ignore AWS credentials and configuration files
+credentials
+*.credentials
+*.config
+
+# Ignore Python virtual environment
+venv/
