@@ -69,11 +69,11 @@ resource "aws_codepipeline" "this" {
       output_artifacts = ["Source"]
 
       configuration = {
-        OAuthToken    = ""
+        OAuthToken    = var.github_token
         Owner         = "awabamjad1"
         Repo          = "pipeline"
         Branch        = "main"
-        PollForSourceChanges = "false" # Optional: Set to "true" for periodic checks
+        PollForSourceChanges = "true" # Optional: Set to "true" for periodic checks
       }
     }
   }

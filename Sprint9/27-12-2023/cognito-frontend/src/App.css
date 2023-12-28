@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 220vh;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+/* Authentication Form Container */
+.AuthFormContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Authentication Form */
+.AuthForm {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 301px; 
+}
+
+.AuthForm h2 {
+  margin-bottom: 20px;
+}
+
+/* API App Styling */
+.Apiapp {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Input Styling */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Alert Styling */
+.alert {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  color: #721c24;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .AuthForm {
+    width: 100%;
+  }
+}
+

@@ -10,7 +10,7 @@ phases:
   build:
     commands:
       - echo Building the Docker image...
-      - docker build -f word-reverse-app/Dockerfile -t frontend .
+      - docker build -t frontend .
 
   post_build:
     commands:
